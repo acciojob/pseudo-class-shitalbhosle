@@ -3,3 +3,11 @@
 	margin:20px;
 	
 }
+#container::before{
+	content:"Before Element";
+	color:red;
+}
+#container::after{
+	content:"After Element";
+	color:red;
+}
